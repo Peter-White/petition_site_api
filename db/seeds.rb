@@ -8,8 +8,8 @@
 
 Signer.delete_all
 
-signer = Signer.create!(first_name: 'Smeggy', last_name: 'Hill', age: 41, address: "47 Cocksauce Rd, Shittkicker TX", email: 'ihaspeen@scrotemail.com', quote: 'I\'m not hiring a fuckin theif')
+signer = Signer.create!(first_name: 'I.P', last_name: 'Frealy', age: 41, address: "123 Fake St, Springfield", email: 'Ihearttheleader@cultchat.com', quote: 'They\'re like the perfect mix of cats and dogs, who wouldn\'t want one.')
 
-signer = Signer.create!(first_name: 'Huri', last_name: 'Urass', age: 54, address: '69 Blowburn Ave, Tittiwaakah, Massachusetts', email: 'screamingwomanrunningdownthestreetthroatcut@badgermail.com', quote: 'To win the lottery, you have to buy a ticket.')
+signer = Signer.create!(first_name: 'Amanda', last_name: 'Hugginkis', age: 21, address: '47 Evergreen Terance, Australia, Australia', email: 'imlookingforamandahugginkis@badgermail.com', quote: 'I just want to sqeaze those littles tails of theirs.')
 
 puts "Registered two signers"
