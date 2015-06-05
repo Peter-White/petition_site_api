@@ -69,4 +69,7 @@ Rails.application.routes.draw do
 
   # delete a signer
   delete '/signers/:id', to: 'signers#delete'
+
+  # get signers count
+  get '/signers-count', to: 'signers#count'
 end

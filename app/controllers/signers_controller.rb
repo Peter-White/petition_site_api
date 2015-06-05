@@ -22,7 +22,7 @@ class SignersController < ApplicationController
       render json: @signer.errors, status: :unprocessable_entity
      end
   end
-  
+
   # PATCH /signers/:id
   def update
     @signer = Signer.find(params[:id])
@@ -40,8 +40,13 @@ class SignersController < ApplicationController
 
     head :no_content
   end
-  
-  private 
+
+  def count
+    count = Signer.count
+    render json: {count: count}
+  end
+
+  private
    def signer_params
     params.require(:signer)
       .permit(:first_name, :last_name, :age, :address, :email, :quote)
